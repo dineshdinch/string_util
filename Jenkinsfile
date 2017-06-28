@@ -1,5 +1,5 @@
 node {
-	ws('E:/Jenkins/utils') {
+	ws('E:/Jenkins/utils/string_util') {
 		stage "Initialization Process"
 			echo "Pipeline Initiated for StringUtil"
 		stage "Git Checkout"
