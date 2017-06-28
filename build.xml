@@ -8,6 +8,7 @@
 	<property name="build.java.dir" value="${build.dir}/classes"/>
 	<property name="lib.dir" value="lib"/>
 	<property name="dist.dir" value="dist"/>
+	<property name="lib.dir" value="../../libs" />
 	
 		<path id="compile.classpath">
 			<fileset dir="${lib.dir}">
@@ -65,6 +66,7 @@
 				<attribute name="Class-Path" value="." />
 			</manifest>
 		</jar>	
+		<copy file="dist/string_util.jar" todir="${lib.dir}" />
 	</target>
 	
 </project>
