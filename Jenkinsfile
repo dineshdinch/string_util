@@ -1,5 +1,5 @@
 node {
-	ws('E:\Jenkins\libs') {
+	ws('E:/Jenkins/libs') {
 		stage "Fetching libs"
 			git url: "https://github.com/dineshdinch/libs.git"
 		stage "Fetching process complete"
