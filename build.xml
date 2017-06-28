@@ -59,7 +59,7 @@
 		</target>
 		
 		<target name="jar" depends="compile">
-		<jar basedir="${build.dir}" destfile="${dist.dir}/string_util.jar" >
+		<jar basedir="${build.java.dir}" destfile="${dist.dir}/string_util.jar" >
 			<manifest>
 				<attribute name="Main-Class" value="com.discernnetwork.jenkins.util.StringUtil" />
 				<attribute name="Class-Path" value="." />
